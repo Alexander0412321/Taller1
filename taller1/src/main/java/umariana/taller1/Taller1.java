@@ -58,9 +58,9 @@ public class Taller1 {
                     
                     //ordernar descendente 
                 case 3:
-                    // ordenar las tareas por prioridad de forma descendente
+                    // ordenar las tareas 
                       Collections.sort(misTareas, (tarea1, tarea2) -> tarea2.getPrioridad() - tarea1.getPrioridad());
-                    // mostrar las tareas ordenadas por prioridad de forma descendente
+                    // mostrar las tareas
                      System.out.println("Tareas ordenadas por prioridad de forma descendente:");
                      for (Tarea a : misTareas) {
                       System.out.println("id: " + a.getIdTarea()+"descripcion:" + a.getDescripcion() +"prioridad: " + a.getPrioridad());
